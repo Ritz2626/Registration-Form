@@ -32,7 +32,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 input{
-    font-size:5vh;
+    font-size:5vw;
     box-shadow:2px solid black;
     border-radius:5px;
 }
