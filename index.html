@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <div class="box">
+    <form>
+        <label for="name" class="required">Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="dob" class="required">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label class="required">Gender</label>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="Male">Male</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Female</label><br><br>
+        <label for="fname" class="required">Father's name</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="mname" class="required">Mother's name</label>
+        <input type="text" id="mname" name="mname" required><br><br>
+        <label for="id" class="required">Email Id</label>
+        <input type="email" id="id" name="id" required><br><br>
+        <label for="phone" class="required">Phone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]" required><br><br>
+        <label for="address" class="required">Address</label>
+        <input type="text" id="address" name="address" required><br><br>
+        <button type="submit">Submit</button>
+        
+    </form>
+    </div>
+</body>
+</html>
